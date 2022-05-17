@@ -7,5 +7,6 @@ public class Main {
 
         System.out.println("Very confused");
         System.out.println("My updated commit");
+        System.out.println("My 5th commit :) ");
     }
 }
