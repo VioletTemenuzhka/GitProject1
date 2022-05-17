@@ -31,11 +31,11 @@ Github:
 1 for each local repo you need to have unique individual remote repo!!!
 2. Make sure you check the connection before. Use gir remote -v If empty, it is not connected
 3. git remote add origin Place the url of the remote repo
-4. git branch -M main (naming your branch)
+4. git branch -M com (naming your branch)
 -- You need to do all these steps Only once after creation of a new repo!!
     After that you don't need to go through them unless you want to change your connection
-5. git push origin main -->
-Common ERROR: ONLY first time you're pushing use git push -u origin main!!!!
+5. git push origin com -->
+Common ERROR: ONLY first time you're pushing use git push -u origin com!!!!
 Next time you can use git push
 
 How to remove your connection/unlinked and reestablish it for another repo?
@@ -44,8 +44,8 @@ match or contain some commits that you don't have on local). This is because we 
 If you make this mistake --> git remote remove origin
 
 
-(HEAD -> main) --> points to the
-origin.main --> pints to the commit in your local repo until
+(HEAD -> com) --> points to the
+origin.com --> pints to the commit in your local repo until
 
 
 Extra Git Commands:
